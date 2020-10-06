@@ -1,17 +1,15 @@
-body {
+@font-face {
+    font-family: 'pixelfont';
+    src: url(assets/fonts/pixelfont.ttf) format('truetype');;
+}
+
+html {
+    overflow: hidden;
     background-color: #0c1016;
 }
 
-/* ---- particles.js container ---- */
-
-#particles-js {
-    position : absolute;
-    width:100%;
-    height:100%;
-    z-index:-1;
-}
-
-#overlay {
-    position: relative;
-    padding: 50px;
+h1, p {
+    font-family: pixelfont, sans-serif;
+    color: white;
+    vertical-align: center;
 }
