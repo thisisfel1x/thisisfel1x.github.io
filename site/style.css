@@ -6,10 +6,56 @@
 html {
     overflow: hidden;
     background-color: #0c1016;
-}
 
-h1, p {
     font-family: pixelfont, sans-serif;
     color: white;
-    vertical-align: center;
+    text-align: center;
+}
+
+#info {
+    text-align: center;
+    font-size: 30px;
+
+    height: 300px;
+    width: 1400px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -700px;
+}
+
+
+#github:visited {
+    color: #6600ff;
+}
+
+#github:hover {
+    color: #9933ff;
+}
+
+#github:active {
+    color: #cc33ff;
+}
+
+#github {
+    text-decoration: none;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    height: 200px;
+    font-size: 25px;
+    margin-top: 50%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
